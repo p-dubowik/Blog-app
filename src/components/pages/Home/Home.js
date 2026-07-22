@@ -13,7 +13,7 @@ const Home = () => {
 
             {posts.map(post => (
                 <Col key={post.id} md='4'>
-                    <Card>
+                    <Card className="my-4">
                         <Card.Body>
                             <Card.Title>{post.title}</Card.Title>
                             <Card.Text><strong className="bold">Author: </strong>{post.author}</Card.Text>
@@ -21,7 +21,9 @@ const Home = () => {
 
                             <Card.Text className="mt-4">{post.shortDescription}</Card.Text>
 
-                            <Button>Read more</Button>
+                            <Link to={`/post/${post.id}`}>
+                                <Button >Read more</Button>
+                            </Link>
                         </Card.Body>
                     </Card>
                 </Col>

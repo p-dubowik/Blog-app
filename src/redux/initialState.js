@@ -1,7 +1,7 @@
 const initialState = {
     posts: [
         {
-            id: '1',
+            id: 1,
             title: 'Article 1',
             shortDescription: 'Lorem Ipsum',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -9,7 +9,7 @@ const initialState = {
             author: 'John Doe'
         },
         {
-            id: '2',
+            id: 2,
             title: 'Article 2',
             shortDescription: 'Dolor Sit',
             content: 'Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.',
@@ -17,7 +17,7 @@ const initialState = {
             author: 'Jane Doe'
         },
         {
-            id: '3',
+            id: 3,
             title: 'Article 3',
             shortDescription: 'Amet Consecetur',
             content: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
@@ -25,7 +25,7 @@ const initialState = {
             author: 'Thomas Jefferson'
         },
         {
-            id: '4',
+            id: 4,
             title: 'Article 4',
             shortDescription: 'Alit sert do',
             content: ' fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
