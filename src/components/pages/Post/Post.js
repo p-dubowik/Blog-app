@@ -9,7 +9,7 @@ import { deletePost } from "../../../redux/postsRedux";
 
 const Post = () => {
     const { id } = useParams();
-    const post = useSelector(state => state.posts.find(post => post.id === Number(id)));
+    const post = useSelector(state => state.posts.find(post => post.id === id));
 
     const dispatch = useDispatch();
 
@@ -19,7 +19,7 @@ const Post = () => {
     const handleShow = () => setShowModal(true);
 
     const handleDelete = () => {
-        dispatch(deletePost(Number(id)));
+        dispatch(deletePost(id));
         handleClose();
     }
 
